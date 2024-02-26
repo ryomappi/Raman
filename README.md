@@ -25,3 +25,15 @@ python src/raman.py <img_path> <spectrum_output_name> [<csv_path> <processed_out
 - `<spectrum_output_name>`: スペクトルのグラフ (pngファイル) の出力ファイル名。例えば`test`など。勝手に`.png`が付きます。
 - `<csv_path>`: smoothingやdenoiseを行いたいデータ (csvファイル) のパス。例えば`test.csv`など。
 - `<processed_output_name>`: 処理後のスペクトルの数値データ (csvファイル) の出力ファイル名。例えば`test`など。勝手に`.csv`が付きます。
+
+# 使用例
+
+```bash
+python src/raman.py test.jpg test test.csv test
+```
+
+```bash
+python src/raman.py test.jpg test
+```
+
+以上の2通りのいずれかの使い方をしてください。誤った使い方の場合、エラーが出ます。
