@@ -14,7 +14,7 @@ src: ソースコードを保存するディレクトリ。中には以下のフ
 # 使い方
 
 ```bash
-$ python src/raman.py <img_path> <spectrum_output_name> <csv_path> <processed_output_name>
+python src/raman.py <img_path> <spectrum_output_name> <csv_path> <processed_output_name>
 ```
 
 のようにして使います。各引数の説明は以下の通りです。
