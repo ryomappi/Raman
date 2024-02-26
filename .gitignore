@@ -1,0 +1,11 @@
+# 画像ファイル
+*.png
+*.jpeg
+*.jpg
+*.bmp
+
+# .csv
+*.csv
+
+# __pycache__
+__pycache__/

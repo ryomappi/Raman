@@ -10,5 +10,9 @@ def run(img_path, spectrum_output_name, csv_path, processed_output_name) -> None
 
 if __name__ == '__main__':
     args = sys.argv
+    # 例外処理
+    if len(args) != 5:
+        print("Usage: python src/raman.py <img_path> <spectrum_output_name> <csv_path> <processed_output_name>")
+        sys.exit(1)
     # 実行
     run(args[1], args[2], args[3], args[4])
